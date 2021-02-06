@@ -86,48 +86,38 @@
 						</div>
 					</section>
 
-					<!-- section 3 -->
+					<!-- section 2 -->
 					<section id="tm-section-3" class="tm-section">
 						<div class="row mb-4">
 							<header class="col-xl-12"><h2 class="tm-text-shadow">A selection of my projects</h2></header>
 						</div>
 						<div class="row">
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fa fa-shopping-cart tm-icon-circled tm-icon-media"></i>
+							
+							<div class="tm-bg-transparent-black tm-border-white" id="flex-set">
+								<i class="fa fa-eye tm-icon-circled tm-icon-media"></i>
 									<div class="media-body">
-										<a target="blank" href="https://AmazonClone.ichapurba13.repl.co"><h3>Amazon Clone</h3></a>
-										<p>A full-stack clone of <a href="https://amazon.com">Amazon</a> built using ReactJS, Redux, MaterialUI and Firebase. Still in development.</p>
+										<a target="blank" href="https://netflix-clone-peach.vercel.app/"><h3>Netflix Clone</h3></a>
+										<p>A full stack Redux clone with payment functionality of <a href="https://netflix.com">Netflix</a> with support of Material-UI and Firebase.</p>
 									</div>
-								</div>
-							</div>	
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fas fa-briefcase mr-4 tm-icon-circled tm-icon-media"></i>	
-									<div class="media-body">
-										<a target="blank" href="https://BusinessDashboard.ichapurba13.repl.co"><h3>Business Dashboard</h3></a>
-										<p>Built using ReactJS to give an effortless experience when tracking your past transaction.</p>
-									</div>
-								</div>
 							</div>
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fa fa-comments mr-4 tm-icon-circled tm-icon-media"></i>
+
+							<div class="tm-bg-transparent-black tm-border-white" id="flex-set">
+								<i class="fa fa-shopping-cart tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<a target="blank" href="https://amazon-clone-roan.vercel.app/"><h3>Amazon Clone</h3></a>
+										<p>A basic full-stack clone of <a href="https://amazon.com">Amazon</a> built using ReactJS, Redux, MaterialUI and Firebase. Still in development.</p>
+									</div>
+							</div>
+						
+							<div class="media tm-bg-transparent-black tm-border-white" id="flex-set">
+								<i class="fa fa-comments mr-4 tm-icon-circled tm-icon-media"></i>	
 									<div class="media-body">
 										<a target="blank" href="https://discord-clone-mu.vercel.app/"><h3>Discord Clone</h3></a>
-										<p>A simple full-stack clone of <a href="https://amazon.com">Discord</a>, built using Redux, Material-UI and Firebase.</p>		
+										<p>A simple full-stack clone of <a href="https://discord.com">Discord</a> with authentication, built using Redux, Material-UI and Firebase.</p>
 									</div>
-								</div>
 							</div>
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fa fa-heart mr-4 tm-icon-circled tm-icon-media" aria-hidden="true"></i>
-									<div class="media-body">
-										<a target="blank" href="https://https://github.com/richapurba/Risma-1.0"><h3>Risma 1.0</h3></a>
-										<p>Tribute to my mom. A virtual assisstant similiar to Alexa built using Python3. Still in development.</p>
-									</div>
-								</div>
-							</div>			          		
+
+
 						</div>						               
 					</section>
 
@@ -246,6 +236,35 @@
 		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
+
+		<!-- Start of Async Drift Code -->
+        <script>
+            "use strict";
+            
+            !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+                t.factory = function(e) {
+                return function() {
+                    var n = Array.prototype.slice.call(arguments);
+                    return n.unshift(e), t.push(n), t;
+                };
+                }, t.methods.forEach(function(e) {
+                t[e] = t.factory(e);
+                }), t.load = function(t) {
+                var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                var i = document.getElementsByTagName("script")[0];
+                i.parentNode.insertBefore(o, i);
+                };
+            }
+            }();
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('wgsiznh585g8');
+        </script>
+        <!-- End of Async Drift Code -->
 
 		<script>
 
@@ -457,33 +476,5 @@
 		}
 
 		</script>
-		<!-- Start of Async Drift Code -->
-		<script>
-		    "use strict";
-
-		    !function() {
-		    var t = window.driftt = window.drift = window.driftt || [];
-		    if (!t.init) {
-			if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-			t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-			t.factory = function(e) {
-			return function() {
-			    var n = Array.prototype.slice.call(arguments);
-			    return n.unshift(e), t.push(n), t;
-			};
-			}, t.methods.forEach(function(e) {
-			t[e] = t.factory(e);
-			}), t.load = function(t) {
-			var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-			o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-			var i = document.getElementsByTagName("script")[0];
-			i.parentNode.insertBefore(o, i);
-			};
-		    }
-		    }();
-		    drift.SNIPPET_VERSION = '0.3.1';
-		    drift.load('wgsiznh585g8');
-		</script>
-		<!-- End of Async Drift Code -->
 	</body>
 </html>
