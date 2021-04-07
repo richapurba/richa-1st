@@ -331,54 +331,7 @@ address { font-size: 1rem; }
 }
 .container-social .fab:hover {color: rgb(0, 132, 255);}
 .put {display: none;}
-#fa-github:checked ~ .container-social .fa-github {
-    color: rgb(229, 255, 0);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(229, 255, 0);
-}
-#fa-linkedin:checked ~ .container-social .fa-linkedin {
-    color: rgb(195, 0, 255);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(195, 0, 255);
-}
-#fa-google:checked ~ .container-social .fa-google {
-    color: rgb(228, 135, 13);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(228, 135, 13);
-}
-#fa-telegram:checked ~ .container-social .fa-telegram {
-    color: rgb(0, 195, 255);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(0, 195, 255);
-}
-#fa-instagram:checked ~ .container-social .fa-instagram {
-    color: rgb(255, 0, 76);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(255, 0, 76);
-}
-#fa-twitter:checked ~ .container-social .fa-twitter {
-    color: rgb(6, 223, 252);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(6, 223, 252);
-}
-#fa-whatsapp:checked ~ .container-social .fa-whatsapp {
-    color: rgb(43, 255, 0);
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px rgb(43, 255, 0);
-}
-#fa-facebook-square:checked ~ .container-social .fa-facebook-square {
-    color: blue;
-    transform: scale(1.1);
-    background: linear-gradient(45deg, #252323 50%, #302c2c 50%);
-    box-shadow: 0 0 10px blue;
-}
+
 
 /* Footer */
 .footer-link {
